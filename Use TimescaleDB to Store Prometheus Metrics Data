@@ -1,17 +1,15 @@
+# BASICS 
+
 Prometheus is the leading open-source systems monitoring solution. With Prometheus, you can obtain metrics about your cloud infrastructure. 
 Grafana is an open-source visualization engine, that enables you to gain powerful insight into your infrastructure metrics. 
 TimescaleDB is a time-series database, providing the tools and services you need to store long-term infrastructure metrics and gain insight for cost-management, capacity planning, and root-cause analysis.
 
-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 Together, TimescaleDB, Prometheus, and Grafana are an ideal open-source analytics stack.
 
-This tutorial comes in two parts. In this first part, you’ll learn how to set up TimescaleDB and Prometheus. 
-In the second part, you’ll learn how to use your metrics data to answer questions about how your infrastructure is performing.
-The second part of this tutorial also includes a sample dataset in case you’d prefer to evaluate TimescaleDB without setting up a full monitoring harness.
+https://docs.timescale.com/latest/tutorials/tutorial-setup-timescale-prometheus
+=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-
-#Why use a long-term store for Prometheus?
+# Why use a long-term store for Prometheus?
 Prometheus is an open-source systems monitoring and alerting toolkit that can be used to easily and cost-effectively monitor infrastructure and applications. You might be already familiar with it, especially if you use Kubernetes. Prometheus’ greatest advantage is its unapologetic approach to solving monitoring in a simple and straightforward way. Its philosophy is to do one thing, and do it well.
 
 However, Prometheus is limited by design. As the Prometheus documentation says:
