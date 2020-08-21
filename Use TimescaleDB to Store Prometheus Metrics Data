@@ -24,4 +24,4 @@ Storing long-term metrics data gives you significant advantages over only examin
 
 Manage costs. With insight into past and present metrics, you can determine the cost of doing business for various scenarios. How much does it cost to run your site on Black Friday? How much does it cost to add new sensors to your IoT infrastructure?
 Plan capacity. You can understand how much infrastructure you will require to support various use cases.
-Identify root causes. Having long-term views of metrics enables you to look for correlations when outages, degradation, or other periodic mishaps occur in your infrastructure.
+Identify root causes. Having long-term views of metrics enables you to look for correlations when outages, degradation, or other periodic mishaps occur in your infrastructure. 
